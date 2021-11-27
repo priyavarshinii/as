@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Object </title>
+</head> 
+ 
+<body>
+    <script>
+    function Person(first, last, address) {
+        this.firstName = first;
+        this.lastName = last;
+        this.officeaddress = address ;
+        
+      }
+      
+      const Person1 = new Person("Priya ", "varshini", "TELENGANA" );
+      const Person2 = new Person("Dev ", "padikkal", "KERALA");
+      const Person3 = new Person("Virat ", "kohli", "RAJASTAN");
+      document.write("  Person1 - "  +Person1.firstName+Person1.lastName+ "   Officeaddress"+Person1.officeaddress);
+      document.write("  Person2 - "  +Person2.firstName+Person2.lastName+ "   Officeaddress"+Person2.officeaddress);
+      document.write("  Person3 - "  +Person3.firstName+Person3.lastName+ "    Officeaddress"+Person3.officeaddress);
+       </script>
+</body>
+</html>
